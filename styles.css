@@ -1,0 +1,1204 @@
+
+
+/*Fondo*/
+.fondo {margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo.v2{
+  background: url(Imagenes/fondo2.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Barra de navegacion*/
+.navbar {
+  display: block;
+  padding: 0.1%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-attachment: fixed;
+  background: url(Imagenes/barra.png);
+  
+}
+
+.navbar.v2{
+  padding: 0.1%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-attachment: fixed;
+  background: url(Imagenes/barra2.png);
+}
+
+.navbar a { 
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 25px;
+}
+.opcioni1{
+  float: left;
+  animation: animop 1.5s both;
+}
+.opcioni2{
+  float: left;
+  animation: animop 2s both;
+}
+.opcioni3{
+  float: left;
+  animation: animop 2.5s both;
+}
+.opcioni4{
+  float: left;
+  animation: animop 3s both;
+}
+.opcioni5{
+  float: left;
+  animation: animop 3.5s both;
+}
+.opcioni6{
+  float: left;
+  animation: animop 4s both;
+}
+.opciond{
+  float: right;
+  animation: animop 4.5s both;
+}
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.093);
+  color: rgba(255, 255, 255, 0.093);
+}
+
+.opcion{
+  font-family: 'Carter One', cursive;
+  font-size: 200%;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 100%; 
+}
+
+/*Textos*/
+.titulo{
+  padding: 4%;
+  font-size: 400%;
+  text-align: center;
+  color: rgb(142, 172, 214);
+  font-family: 'Carter One', cursive;
+  text-shadow: 1px  0px 0px rgb(52, 88, 136),
+  0px  1px 0px rgb(52, 88, 136),
+  -6px  0px 0px rgb(52, 88, 136),
+  0px 0px 0px rgb(52, 88, 136);
+}
+
+.nombre{
+font-size: 300%;
+text-align: center;
+color: rgb(142, 172, 214);
+font-family: 'Carter One', cursive;
+text-shadow: 1px  0px 0px rgb(52, 88, 136),
+0px  1px 0px rgb(52, 88, 136),
+-6px  0px 0px rgb(52, 88, 136),
+0px 0px 0px rgb(52, 88, 136);
+}
+.txtinfo{
+  font-size: 200%;
+  color: rgb(142, 172, 214);
+  font-family: 'Carter One', cursive;
+  text-shadow: 1px  0px 0px rgb(52, 88, 136),
+  0px  1px 0px rgb(52, 88, 136),
+  -4px  0px 0px rgb(52, 88, 136),
+  0px 0px 0px rgb(52, 88, 136);
+}
+.txtinfo2{
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+  font-family: 'Carter One', cursive;
+  text-shadow: 1px  0px 0px pink,
+  0px  1px 0px pink,
+  -6px  0px 0px pink,
+  0px 0px 0px pink;
+  
+}
+
+.subtitulo{
+padding: 2%;
+font-size: 300%;
+text-align: left;
+color: rgb(142, 172, 214);
+font-family: 'Carter One', cursive;
+text-shadow: 1px  0px 0px rgb(52, 88, 136),
+0px  1px 0px rgb(52, 88, 136),
+-6px  0px 0px rgb(52, 88, 136),
+0px 0px 0px rgb(52, 88, 136);
+}
+
+.titulo2{
+  padding: 4%;
+  font-size: 400%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Carter One', cursive;
+  text-shadow: 1px  0px 0px pink,
+  0px  1px 0px pink,
+  -6px  0px 0px pink,
+  0px 0px 0px pink;
+  
+}
+
+.nombre2{
+font-size: 300%;
+text-align: center;
+color: rgb(255, 255, 255);
+font-family: 'Carter One', cursive;
+text-shadow: 1px  0px 0px pink,
+0px  1px 0px pink,
+-6px  0px 0px pink,
+0px 0px 0px pink;
+}
+
+.subtitulo2{
+padding: 2%;
+font-size: 300%;
+text-align: left;
+color: rgb(255, 255, 255);
+font-family: 'Carter One', cursive;
+text-shadow: 1px  0px 0px pink,
+0px  1px 0px pink,
+-6px  0px 0px pink,
+0px 0px 0px pink;
+}
+
+/*Listas*/
+
+
+.listaj img{
+width: 80%;
+height: 250px;
+margin-bottom: 5px;
+}
+.listaj{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.listaj2 img{
+  width: 80%;
+  height: 250px;
+  margin-bottom: 5px;
+  }
+  .listaj2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+@keyframes cambios{
+  0%{
+    background-image: url(Imagenes/juegocloud.png);
+  }
+  9%{
+    background-image: url(Imagenes/juegomanaos.png);
+  }
+  18%{
+    background-image: url(Imagenes/juegoball.png);
+  }
+  27%{
+    background-image: url(Imagenes/juegofoxy.png);
+  }
+  36%{
+    background-image: url(Imagenes/juegoarturo.png);
+  }
+  45%{
+    background-image: url(Imagenes/juegomarcia.png);
+  }
+  54%{
+    background-image: url(Imagenes/juegomoon.png);
+  }
+  63%{
+    background-image: url(Imagenes/juegowaffle.png);
+  }
+  72%{
+    background-image: url(Imagenes/juegopato.png);
+  }
+  81%{
+    background-image: url(Imagenes/juegoz.png);
+  }
+  90%{
+    background-image: url(Imagenes/juegocloud.png);
+  }
+  100%{
+    background-image: url(Imagenes/juegocloud.png);
+  }
+}
+
+@keyframes cambiomanga{
+    0%{
+      background-image: url(Imagenes/Mangaincio1.png);
+    }
+    20%{
+      background-image: url(Imagenes/Mangaincio1.png);
+    }
+    40%{
+      background-image: url(Imagenes/Mangaincio2.png);
+    }
+    60%{
+      background-image: url(Imagenes/Mangaincio3.png);
+    }
+    80%{
+      background-image: url(Imagenes/Mangaincio4.png);
+    }
+    100%{
+      background-image: url(Imagenes/Mangaincio1.png);
+    }
+}
+
+.fondos img{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  animation: cambios 15s infinite; 
+}
+.fondos4 img{
+  width: 60%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  animation: fondosdesc 25s infinite; 
+}
+.fondos5 img{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  animation: cambiomanga 8s infinite; 
+}
+@keyframes fondosdesc{
+  0%{
+    background-image: url(stickers/fondocelu17.png);
+  }
+  10%{
+    background-image: url(stickers/fondocelu19.png);
+  }
+  20%{
+    background-image: url(stickers/fondocelu2.png);
+  }
+  30%{
+    background-image: url(stickers/fondocelu22.png);
+  }
+  40%{
+    background-image: url(stickers/fondocelu20.png);
+  }
+  50%{
+    background-image: url(stickers/fondocelu27.png);
+  }
+  60%{
+    background-image: url(stickers/fondocelu26.png);
+  }
+  70%{
+    background-image: url(stickers/fondocelu28.png);
+  }
+  80%{
+    background-image: url(stickers/fondocelu31.png);
+  }
+  90%{
+    background-image: url(stickers/fondocelu38.png);
+  }
+  100%{
+    background-image: url(stickers/fondocelu17.png);
+  }
+}
+.fondos3 img:hover{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  animation: cambiomanga 15s infinite; 
+}
+.fondos3{
+  width: 100%;
+  transition: all .3s;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url(Imagenes/Manga.png);
+}
+.fondos{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.fondos2 img{
+  width: 100%;
+}
+.fondos2{
+  width: 30%;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondos4{
+  text-align: center;
+  width: 20%;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.fondos5{
+  text-align: center;
+  width: 20%;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.present{
+  width: 100%;
+  display: inline-flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.listam{
+  text-align: center;
+}
+
+*::-webkit-scrollbar {
+  width: 20px; 
+}
+
+*::-webkit-scrollbar-track {
+  background-image: url(Imagenes/fondo1.png);
+  border-radius: 25px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 25px; 
+  border: 5px solid rgba(0, 0, 0, 0.22);
+}
+.scroll{
+  text-align: center;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+  direction: rtl;
+}
+.fondolista{
+  text-align: center;
+  background-image: url(Imagenes/fondo1.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  padding: 2%;
+}
+.fondovideo{
+  display:initial;
+  width: 70%;
+  text-align: center;
+  background-image: url(Imagenes/fondo1.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  padding: 2%;
+}
+.juegobizarro{
+  display: none;
+}
+.juegobizarro img{
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+}
+.juegobizarro img:hover {
+  background: rgba(255, 255, 255, 0.093);
+  color: rgba(255, 255, 255, 0.093);
+  border-radius: 25px;
+  object-fit: cover;
+  animation: logosjug 3s both infinite;
+}
+.fondovideo2{
+  text-align: center;
+  display: none;
+  width: 70%;
+  text-align: center;
+  background-image: url(Imagenes/fondo1.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  padding: 2%;
+}
+.espaciolista{
+padding: 10%;
+}
+
+/*Juegos y mangas*/
+
+.juego1 iframe{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  width: 120vh;
+  height: 88vh;
+  background-image: url(Imagenes/fondo3.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.juego2 iframe{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  width: 80vh;
+  height: 68vh;
+  background-image: url(Imagenes/fondo3.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.leermanga iframe{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  width: 60%;
+  height: 670px;
+  background-image: url(Imagenes/fondo3.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hojamanga img{
+  width: 70%;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  margin:0;
+  padding: 2%;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.portadamanga{
+  width: 30%;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Imagenes*/
+.carga{
+  width: 20%;
+
+  animation: peponcio 1s infinite;  
+}
+.prox{
+  width: 10%;
+}
+.stickers{
+  width: 15%;
+}
+.stickers:hover{
+  animation: logosjug 3s both infinite;
+}
+.stickers2{
+  width: 90%;
+}
+.stickers2:hover{
+  animation: logosjug 3s both infinite;
+}
+.imag{
+  width: 30%;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+}
+.imgopciones{
+  width: 100%;
+  
+}
+.imgopciones2{
+  width: 10%;
+float: right;
+  
+}
+
+.portadajuego img{
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+}
+.portadajuego2 img{
+  width: 90%;
+  object-fit: contain;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.codigoqr1 img{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url(Imagenes/qr-code1.png);
+}
+.codigoqr1{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.codigoqr1 img:hover{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  animation: cambioqr 4s infinite;  
+}
+.codigoqr2 img{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url(Imagenes/qr-code2.png);
+}
+.codigoqr2{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.codigoqr2 img:hover{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  animation: cambioqr2 4s infinite; 
+}
+.codigoqr3 img{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url(Imagenes/qr-code3.png);
+}
+.codigoqr3{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.codigoqr3 img:hover{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  animation: cambioqr3 4s infinite; 
+}
+.codigoqr4 img{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url(Imagenes/qr-code4.png);
+}
+.codigoqr4{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.codigoqr4 img:hover{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  animation: cambioqr4 4s infinite;  
+}
+
+.codigoqr5{
+  width: 100%;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.codigoqr5 img{
+  width: 100%;
+}
+@keyframes peponcio{
+  1%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes cambioqr{
+  0%{
+    background-image: url(stickers/STIKER0.png);
+  }
+  25%{
+    background-image: url(stickers/STIKER13.png);
+  }
+  50%{
+    background-image: url(stickers/STIKER7.png);
+  }
+  75%{
+    background-image: url(stickers/STIKER2.png);
+  }
+  100%{
+    background-image: url(stickers/STIKER0.png);
+  }
+}
+
+@keyframes cambioqr2{
+  0%{
+    background-image: url(stickers/STIKER31.png);
+  }
+  25%{
+    background-image: url(stickers/STIKER34.png);
+  }
+  50%{
+    background-image: url(stickers/STIKER50.png);
+  }
+  75%{
+    background-image: url(stickers/STIKER54.png);
+  }
+  100%{
+    background-image: url(stickers/STIKER31.png);
+  }
+}
+
+@keyframes cambioqr3{
+  0%{
+    background-image: url(stickers/STIKER64.png);
+  }
+  25%{
+    background-image: url(stickers/STIKER80.png);
+  }
+  50%{
+    background-image: url(stickers/STIKER82.png);
+  }
+  75%{
+    background-image: url(stickers/STIKER87.png);
+  }
+  100%{
+    background-image: url(stickers/STIKER64.png);
+  }
+}
+
+@keyframes cambioqr4{
+  0%{
+    background-image: url(stickers/STIKER95.png);
+  }
+  25%{
+    background-image: url(stickers/STIKER97.png);
+  }
+  50%{
+    background-image: url(stickers/STIKER98.png);
+  }
+  75%{
+    background-image: url(stickers/STIKER104.png);
+  }
+  100%{
+    background-image: url(stickers/STIKER95.png);
+  }
+}
+
+.listac img{
+  width: 70%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.portadajuego img:hover {
+  background: rgba(255, 255, 255, 0.093);
+  color: rgba(255, 255, 255, 0.093);
+  border-radius: 25px;
+  object-fit: cover;
+  animation: logosjug 3s both infinite;
+}
+
+.espere{
+  position: absolute;
+  left: 5%;
+  width: 10%;
+  bottom: 4vh;
+  animation: esperando 0.5s both;
+}
+
+.masarriba{
+  position: absolute;
+  right: 5%;
+  width: 10%;
+  animation: masjug 3s both infinite;
+}
+
+.inic{
+  position: fixed;
+  left: 5%;
+  width: 12%;
+  animation: masjug 3s both infinite;
+}
+.mang{
+  position: fixed;
+  right: 2%;
+  width: 10%;
+  animation: masjug 3s both infinite;
+}
+.mang3{
+  position: fixed;
+  right: 1%;
+  width: 10%;
+  animation: masjug2 3s both infinite;
+}
+.marca{
+  left: 1%;
+  bottom: 0%;
+  position: fixed;
+  width: 12%;
+  animation: marcadeagua 3s both infinite;
+}
+.mang4{
+  position: fixed;
+  left: 2%;
+  width: 10%;
+  animation: masjug2 3s both infinite;
+}
+.mang2{
+  position: fixed;
+  right: 5%;
+  width: 10%;
+  animation: masjug 3s both infinite;
+}
+.masinf{
+  position: absolute;
+  right: 5%;
+  width: 10%;
+  animation: masret 3s both infinite;
+}
+
+.recargar{
+  position: absolute;
+  left: 5%;
+  width: 10%;
+  animation: recargarjug 3s both infinite;
+}
+.recargar2{
+  position: absolute;
+  left: 5%;
+  width: 10%;
+  animation: recargarjug2 1s both infinite;
+}
+@keyframes recargarjug2{
+  0%{
+    transform: translateY(80%);
+    transform: translateX(100%);
+    opacity: 100%;
+  }
+  20%{
+    transform: translateY(0%);
+    transform: translateX(-10%);
+    opacity: 0%;
+  }
+  30%{
+    transform: translateY(100%);
+  }
+  40%{
+    transform: translateY(50%);
+    transform: translateX(-10%);
+  }
+  80%{
+    transform: translateY(10%);
+    transform: translateX(-20%);
+  }
+  100%{
+    transform: translateY(0%);
+    transform: translateX(10%);
+  }
+}
+
+@keyframes recargarjug{
+  0%{
+    transform: translateY(70%);
+  }
+  50%{
+    transform: translateY(90%);
+  }
+  100%{
+    transform: translateY(70%);
+  }
+}
+@keyframes marcadeagua{
+  0%{
+    width: 12%;
+  }
+  50%{
+    width: 15%;
+  }
+  100%{
+    width: 12%;
+  }
+}
+.comentarios iframe{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  width: 40%;
+  height: 120vh;
+  background-image: url(Imagenes/fondo1.png);
+  margin:0;
+  transition: all .3s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.comentarios{
+  text-align: center;
+}
+@keyframes masjug{
+  0%{
+    transform: translateY(30%);
+  }
+  50%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(30%);
+  }
+}
+@keyframes masjug2{
+  0%{
+    transform: translateY(120%);
+  }
+  50%{
+    transform: translateY(80%);
+  }
+  100%{
+    transform: translateY(120%);
+  }
+}
+@keyframes masret{
+  0%{
+    transform: translateY(230%);
+  }
+  50%{
+    transform: translateY(210%);
+  }
+  100%{
+    transform: translateY(230%);
+  }
+}
+
+@keyframes esperando{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(-10%);
+  }
+
+}
+/*Partes de la pagina*/
+
+#inicio{
+  display: block;
+}
+
+#juegos{
+  display: none;
+
+}
+
+#manga{
+  display: none;
+
+}
+
+#contactos{
+  display: none;
+
+}
+
+#cargando{
+  display: none;
+  opacity: 0%;
+  animation: descarga 2s both ;
+}
+#masinfo{
+  display: none;
+}
+
+.juego1{
+  text-align: center;
+}
+.juego2{
+  text-align: center;
+}
+
+
+@keyframes descarga{
+  0%{
+    opacity: 0%;
+  }
+  50%{
+    opacity: 100%;
+  }
+  70%{
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+@keyframes meme{
+  0%{
+    opacity: 0%;
+  }
+  5%{
+    opacity: 100%;
+  }
+  95%{
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+
+@keyframes logosjug{
+  0%{
+    transform: translateY(3%);
+  }
+  50%{
+    transform: translateY(-3%);
+  }
+  100%{
+    transform: translateY(3%);
+  }
+}
+@keyframes boing{
+  0%{
+    transform: rotateX(0deg);
+  }
+  100%{
+    transform: rotateX(360deg);
+  }
+}
+@keyframes animop{
+  0%{
+    position: relative;
+    transform: translateY(-200%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
+/* Contactos */
+
+.what{
+  display: none;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  opacity: 0%;
+  animation: meme 5s both ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.what img{
+  width: 80%;
+}
+
+.twi{
+  display: none;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  opacity: 0%;
+  animation: meme 9s both ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.disc{
+  display: none;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  opacity: 0%;
+  animation: meme 9s both ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.disc img{
+  width: 70%;
+}
+.twi img{
+  width: 80%;
+}
+.face{
+  display: none;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  opacity: 0%;
+  animation: meme 9s both ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.face img{
+  width: 50%;
+}
+.ig{
+  display: none;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  opacity: 0%;
+  animation: meme 9s both ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ig img{
+  width: 60%;
+}
+
+.merc{
+  display: none;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  opacity: 0%;
+  animation: meme 9s both ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.merc img{
+  width: 60%;
+}
+
+.extras{
+  display: none;
+}
+
+.atras{
+  left: 0%;
+  position: absolute;
+ 
+}
+.atras img{
+  width: 30%;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 30%;
+}
+.adelante{
+ right: 0%;
+ position: absolute;
+}
+.adelante img{
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.22);
+  background-image: url(Imagenes/fondo4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 30%;
+}
+
